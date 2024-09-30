@@ -2,7 +2,13 @@
  
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 800px) {
+    .helmet, .herob, .imagebtn{
+        display: none;
+    }
+
+
+    
 }
 
 @media screen and (max-width: 640px) {
@@ -42,12 +48,16 @@
       }
     
       .helmet-image{
-        margin-top: 8rem;
+        margin-top: 5rem;
         width: 140px; /* Adjust the image size for mobile */
         height: 120px; /* Adjust the height to maintain aspect ratio */
       }
-      .helmet-image1 {
+      .helmet-image2 {
         width: 140px; /* Adjust the image size for mobile */
+        height: 170px; /* Adjust the height to maintain aspect ratio */
+      }
+      .helmet-image1 {
+        width: 170px; /* Adjust the image size for mobile */
         height: 170px; /* Adjust the height to maintain aspect ratio */
       }
     

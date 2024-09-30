@@ -216,8 +216,17 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px; /* Adjust image size as needed */
+    width: 140px; /* Adjust image size as needed */
     height: 140px;
+    object-fit: cover; /* Keep the aspect ratio */
+    border-radius: 0.5rem; /* Optional: rounded corners */
+}
+.helmet-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px; /* Adjust image size as needed */
+    height: 150px;
     object-fit: cover; /* Keep the aspect ratio */
     border-radius: 0.5rem; /* Optional: rounded corners */
 }
@@ -227,5 +236,6 @@ a:hover {
 }
 
 .prdctprc {
+    font-weight: bolder;
     font-size: 1.5rem; /* Adjust font size for price */
 }
