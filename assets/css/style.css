@@ -154,12 +154,6 @@ a:hover {
     justify-content: center;
     text-align: center;
 }
-
-.number{
-    font-weight:bolder;
-    opacity: 10%;
-}
-
 .newprdct{
     font-size:xx-large;
     position: absolute;
@@ -167,17 +161,9 @@ a:hover {
     display: flex;
 }
 
-.card{
-    background-color: #f9f9f9;
-}
-
-.buybtn{
-    margin-top: 2rem;
-    background-color: var(--base-color);
-}
-
-.prdcn{
-    color: #404040;
+.number{
+    font-weight:bolder;
+    opacity: 10%;
 }
 
 .prdctprc{
@@ -185,25 +171,27 @@ a:hover {
     color: var(--secondary-color);
 }
 
-.card {
-    display: relative;
-    align-items: center; /* Center items vertically */
-    background-color: #f9f9f9; /* Set background color */
-    position: relative;
+.buybtn{
+    margin-top: 2rem;
+    background-color: var(--base-color);
 }
-.card2, .card3{
-    display: relative;
+
+.card {
     align-items: center; /* Center items vertically */
     background-color: #f9f9f9; /* Set background color */
+    color: #404040;
+    flex: 1 1 30%; /* Ensures that the cards take 30% of the width, adjust as needed */
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    padding: 16px;
+    border: 1px solid #E5E7EB; /* Tailwind's gray-100 */
+    border-radius: 0.375rem; /* Tailwind's rounded-md */
+    box-sizing: border-box;
     position: relative;
 }
 
-.image-container {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+
+/* Blog */
 
 .image-container-blog {
     position: absolute;
@@ -219,9 +207,10 @@ a:hover {
     object-fit: cover; /* Keep the aspect ratio */
 }
 .helmet-image {
-    width: 310px; /* Adjust image size as needed */
-    height: 260px;
-    border-radius: 0.5rem; /* Optional: rounded corners */
+    width: 120px;
+    height: 120px;
+    object-fit: contain; /* Ensures that the image fits within the container without being cut */
+    border-radius: 0.375rem; /* Optional: Rounding the corners of the image */
 }
 
 .featured-product{
@@ -259,3 +248,27 @@ a:hover {
     font-weight: bolder;
     font-size: 1.5rem; /* Adjust font size for price */
 }
+
+#cardContainer {
+    display: flex;
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: wrap; /* Ensure cards wrap if the screen is smaller */
+    gap: 1rem; /* Optional: Add some space between the cards */
+}
+
+/* Add these styles to your existing CSS */
+.project-image {
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Other existing styles */
+.overlay {
+    transition: opacity 0.3s; /* Ensure overlay fades smoothly */
+}
+
+
+

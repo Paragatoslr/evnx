@@ -13,6 +13,14 @@
     
 }
 
+/* For smaller screens, stack cards vertically */
+@media (max-width: 768px) {
+    .card {
+        flex-basis: 100%; /* Full width for smaller screens */
+        margin-bottom: 16px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .t1{
         text-align: center;
