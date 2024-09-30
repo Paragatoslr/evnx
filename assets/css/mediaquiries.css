@@ -5,7 +5,7 @@
 @media screen and (max-width: 1200px) {
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     .t1{
         text-align: center;
         font-size: 3rem;
@@ -13,5 +13,60 @@
     }
     .p1{
         text-align: center;
+    }
+
+    .card{
+        left: 15px;
+        width: 90%;
+    }
+
+    .card2, .card3 {
+        align-content: center;
+        width: 90%; 
+        margin: 0 auto; 
+        margin-bottom: 10px;
+      }
+    
+      .image-container1 {
+        margin-left: 0; /* Remove the left margin to avoid extra space */
+        text-align: center; /* Center the image */
+      }
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 5rem;
+        width: 150px;
+        height: 150px;
+        text-align: center; /* Center the image */
+      }
+    
+      .helmet-image{
+        margin-top: 8rem;
+        width: 140px; /* Adjust the image size for mobile */
+        height: 120px; /* Adjust the height to maintain aspect ratio */
+      }
+      .helmet-image1 {
+        width: 140px; /* Adjust the image size for mobile */
+        height: 170px; /* Adjust the height to maintain aspect ratio */
+      }
+    
+      .prdctprc {
+        font-size: 1.25rem; /* Adjust product price font size for mobile */
+      }
+    
+      .buybtn {
+        width: auto; /* Make the button full width */
+        justify-content: center; /* Center the text and icon */
+      }
+}
+
+@media screen and (max-width: 320px) {
+
+    .helmet-image{
+        display: none;
+    }
+    .helmet-image1{
+        display: none;
     }
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 /* ROOT */
 
 :root{
@@ -7,6 +9,10 @@
     --gray-color: rgb(185, 185, 185);
 }
 
+
+body{
+    font-family: "Poppins", sans-serif;
+}
 
 /* Font Color - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
@@ -127,3 +133,99 @@ a:hover {
     background-color: var(--base-color);
 }
 
+
+/* product - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.title {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container{
+    margin-bottom: 10rem;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.number{
+    font-weight:bolder;
+    opacity: 10%;
+}
+
+.newprdct{
+    font-size:xx-large;
+    position: absolute;
+    text-align: center;
+    display: flex;
+}
+
+.card{
+    background-color: #f9f9f9;
+}
+
+.buybtn{
+    margin-top: 2rem;
+    background-color: var(--base-color);
+}
+
+.prdcn{
+    color: #404040;
+}
+
+.prdctprc{
+    margin-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.card {
+    display: relative;
+    align-items: center; /* Center items vertically */
+    background-color: #f9f9f9; /* Set background color */
+    position: relative;
+}
+.card2, .card3{
+    display: relative;
+    align-items: center; /* Center items vertically */
+    background-color: #f9f9f9; /* Set background color */
+    position: relative;
+}
+
+.image-container {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.helmet-image {
+    width: 310px; /* Adjust image size as needed */
+    height: 260px;
+    object-fit: cover; /* Keep the aspect ratio */
+    border-radius: 0.5rem; /* Optional: rounded corners */
+}
+
+.helmet-image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px; /* Adjust image size as needed */
+    height: 140px;
+    object-fit: cover; /* Keep the aspect ratio */
+    border-radius: 0.5rem; /* Optional: rounded corners */
+}
+
+.prdctn {
+    font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+.prdctprc {
+    font-size: 1.5rem; /* Adjust font size for price */
+}
