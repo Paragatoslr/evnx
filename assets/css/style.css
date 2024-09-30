@@ -1,0 +1,129 @@
+/* ROOT */
+
+:root{
+    --base-color: #ff4f37;
+    --secondary-color: #404040;
+    --solid-white: white;
+    --gray-color: rgb(185, 185, 185);
+}
+
+
+/* Font Color - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.evnx, .l1{
+    color: var(--base-color);
+}
+
+.evnx {
+    font-size: 2rem;
+
+}
+
+.l2 .l3 .l4{
+    color: var(--secondary-color);
+}
+
+
+/* nav - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */ 
+
+nav {
+    border: var(--solid-white);
+    color: var(--secondary-color);
+}
+
+.searchbar {
+    height: 40px;
+    /* width: 200px; */
+    /* margin-right: 5px; */
+    padding: 5px;
+    color: var(--secondary-color);
+    border: 1px solid var(--gray-color);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.currency{
+    margin-right: 10px;
+}
+
+/* Style adjustments for the dropdown */
+.group:hover .group-hover\\:block {
+    display: block;
+}
+
+.group:hover .group-hover\\:block {
+    display: block;
+}
+
+.group .block {
+    position: relative;
+}
+
+/* Adjust hover styles for the list items */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #e2e8f0; /* Light background on hover */
+    color: #1a202c; /* Text color change */
+}
+
+/* Additional styles for images inside dropdown */
+.w-8 {
+    width: 2rem; /* Small image size */
+}
+
+.h-8 {
+    height: 2rem; /* Small image size */
+}
+
+
+
+/* Hero - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.helmet1{
+    width: 100%; 
+    max-width: 1000%;
+    height: auto; 
+}
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: auto;
+    overflow: hidden; 
+}
+.carousel-container img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.text_hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.t1 {
+    text-align: left;
+}
+
+.t1{
+    font-size: 4rem;
+}
+
+.b1, .b2, .b4{
+    font-weight: bold;
+    color: var(--secondary-color);
+    background-color: var(--solid-white);
+}
+
+.b3 {
+    font-weight: bold;
+    color: var(--solid-white);
+    background-color: var(--base-color);
+}
+
