@@ -39,3 +39,40 @@ updateImage();
 function changeCurrency(currency) {
     document.getElementById("selectedCurrency").textContent = currency;
 }
+
+        const blogEvents = [
+            {
+                date: '07/09/2017',
+                title: 'Dennis wins Van Doren Invitational WSBC Champ.',
+                image: './assets/images/mini1.jpg'
+            },
+            {
+                date: '07/09/2017',
+                title: 'Dennis wins Van Doren Invitational WSBC Champ.',
+                image: './assets/images/mini12.jpg'
+
+            },
+            {
+                date: '07/09/2017',
+                title: 'Dennis wins Van Doren Invitational WSBC Champ.',
+                image: './assets/images/mini123.jpeg'
+
+            }
+        ];
+
+        const blogEventsContainer = document.getElementById('blogEvents');
+
+        blogEvents.forEach(event => {
+            const eventElement = document.createElement('div');
+            eventElement.className = 'flex items-start space-x-2 md:space-x-4 mb-4 md:mb-6';
+            eventElement.innerHTML = `
+                <img src="${event.image}" alt="${event.title}" class="w-16 h-16 md:w-24 md:h-24 object-cover">
+                <div>
+                    <p class="text-gray-500 text-xs mb-1">${event.date}</p>
+                    <h3 class="font-bold text-xs md:text-sm mb-1">${event.title}</h3>
+                    <a href="#" class="text-red-500 text-xs font-bold">READ MORE</a>
+                </div>
+            `;
+            blogEventsContainer.appendChild(eventElement);
+        });
+  

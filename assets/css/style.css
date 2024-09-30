@@ -205,11 +205,31 @@ a:hover {
     transform: translateY(-50%);
 }
 
+.image-container-blog {
+    position: absolute;
+    right: 10rem;
+    top: 1.5rem;
+    transform: translateX(-30%);
+}
+
+.helmet-image-blog {
+    position: relative;
+    width: 30vm; /* Adjust image size as needed */
+    height: auto;
+    object-fit: cover; /* Keep the aspect ratio */
+}
 .helmet-image {
     width: 310px; /* Adjust image size as needed */
     height: 260px;
-    object-fit: cover; /* Keep the aspect ratio */
     border-radius: 0.5rem; /* Optional: rounded corners */
+}
+
+.featured-product{
+    margin-right: 12rem;
+}
+
+.blogevent{
+    margin-right: 10rem;
 }
 
 .helmet-image1 {

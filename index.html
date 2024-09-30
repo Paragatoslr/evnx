@@ -184,6 +184,7 @@
         </div>
     </section>
 
+    <!-- Product Section -->
     <section id="product">
         <div class="title-container">
             <h1 class="title number">01</h1>
@@ -249,8 +250,41 @@
             </div>
         </div>
     </section>
-    
 
+    <!-- Blog Section -->
+    <div class="flex flex-col md:flex-row bg-white p-4 md:p-6 max-w-7xl mx-auto">
+        <!-- Blog & Events Section -->
+        <div class="blogevent w-full md:w-2/5 pr-0 md:pr-6 mb-6 md:mb-0">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-xl md:text-2xl font-bold">BLOG x EVENTS</h2>
+                <a href="#" class="text-red-500 text-xs md:text-sm font-bold">SEE ALL</a>
+            </div>
+            <div id="blogEvents"></div>
+        </div>
+
+        
+        <!-- Featured Product Section -->
+        <div class="w-full md:w-3/5 relative">
+            
+            <img src="./assets/images/avgbg.jpg" alt="AGV Helmet" class="blogcover w-full h-auto object-cover">
+           
+            <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent">
+                <!-- Adjust position of text and buttons -->
+                <div class="absolute top-1/2 transform -translate-y-1/2 right-8 text-right">
+                    <h2 class="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2">AGV<br>BEST <br> SELLERS</h2>
+                    <p class="text-white text-xs md:text-sm mb-4">SEE OUR MOST POPULAR PRODUCTS</p>
+                    <button class="bg-red-500 text-white py-2 px-4 md:px-6 text-xs md:text-sm font-bold uppercase">
+                        Shop Now
+                    </button>
+                </div>
+
+                <div class="image-container-blog ml-4">
+                    <img src="./assets/images/helmet7.png" alt="Helmet" class="helmet-image-blog flex object-cover rounded-lg"/>
+                </div>
+
+            </div>
+        </div>        
+    </div>
 </body>
 
 

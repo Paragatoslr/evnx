@@ -6,7 +6,9 @@
     .helmet, .herob, .imagebtn{
         display: none;
     }
-
+    .image-container-blog{
+        display: none;
+    }
 
     
 }
